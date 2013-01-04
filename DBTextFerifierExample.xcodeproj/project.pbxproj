@@ -18,6 +18,7 @@
 		EC625CF01697479D005BD5B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC625CEF1697479D005BD5B5 /* Default-568h@2x.png */; };
 		EC625CF31697479D005BD5B5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC625CF11697479D005BD5B5 /* MainStoryboard.storyboard */; };
 		EC625CF61697479D005BD5B5 /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC625CF51697479D005BD5B5 /* DBViewController.m */; };
+		EC625CFF16974892005BD5B5 /* DBTextVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = EC625CFE16974892005BD5B5 /* DBTextVerifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		EC625CF21697479D005BD5B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EC625CF41697479D005BD5B5 /* DBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBViewController.h; sourceTree = "<group>"; };
 		EC625CF51697479D005BD5B5 /* DBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBViewController.m; sourceTree = "<group>"; };
+		EC625CFD16974892005BD5B5 /* DBTextVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBTextVerifier.h; path = DBTextVerifier/DBTextVerifier.h; sourceTree = SOURCE_ROOT; };
+		EC625CFE16974892005BD5B5 /* DBTextVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBTextVerifier.m; path = DBTextVerifier/DBTextVerifier.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		EC625CDF1697479D005BD5B5 /* DBTextFerifierExample */ = {
 			isa = PBXGroup;
 			children = (
+				EC625CFC16974860005BD5B5 /* DBTextVerifier */,
 				EC625CE81697479D005BD5B5 /* DBAppDelegate.h */,
 				EC625CE91697479D005BD5B5 /* DBAppDelegate.m */,
 				EC625CF11697479D005BD5B5 /* MainStoryboard.storyboard */,
@@ -105,6 +109,15 @@
 				EC625CEF1697479D005BD5B5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC625CFC16974860005BD5B5 /* DBTextVerifier */ = {
+			isa = PBXGroup;
+			children = (
+				EC625CFD16974892005BD5B5 /* DBTextVerifier.h */,
+				EC625CFE16974892005BD5B5 /* DBTextVerifier.m */,
+			);
+			name = DBTextVerifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +190,7 @@
 				EC625CE61697479D005BD5B5 /* main.m in Sources */,
 				EC625CEA1697479D005BD5B5 /* DBAppDelegate.m in Sources */,
 				EC625CF61697479D005BD5B5 /* DBViewController.m in Sources */,
+				EC625CFF16974892005BD5B5 /* DBTextVerifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
